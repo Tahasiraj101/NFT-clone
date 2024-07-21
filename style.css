@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white; /* Set text color to white */
+    font-family: system-ui, -apple-system, Blink
+    MacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* margin-left: 100px; */
+    /* margin-right: 100px; */
+}
+.navigation {
+    height: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6vw;
+}
+
+.navigation img {
+    height: 100%; /* Maintain height of logo */
+}
+
+.navigation-part2 ul {
+    display: flex;
+    gap: 25px;
+}
+
+.navigation-part2 ul li {
+    list-style: none;
+}
+
+.navigation-part2 ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 11px; /* Adjust font size as needed */
+    
+}
+
+.navigation-part2 ul li a:hover {
+    color: #95A000; /* Hover color */
+}
+
+.background-image-container {
+    width: 100%;
+    padding: 1vw 6vw 0 6.5vw;
+    overflow: hidden; /* Ensure the background image does not extend beyond its container */
+}
+.left-content {
+    height: vh;
+    padding: 0 5vw 0 0;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    text-align: center;
+}
+    
+ .left-content h1 {
+    height: auto;
+    padding: 1vw 2vw 0 6vw;
+    margin: 3vw 3vw;
+    text-align: start;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1.5;
+
+    
+}
+
+.text1 p {
+    text-align: justify;
+    color: white;
+    padding: 1vw 2vw 0 6vw;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 2;
+    text-transform: uppercase;
+    
+}
+
+#background-image {
+    width: 100%;
+    height: auto;
+}
+
+.right-content{     
+    gap: 20px; 
+    padding: 1vw 1vw 1vw 1vw;
+}
+
+.right-content img {
+    width: 170px; 
+    height: 170px; 
+    border-radius: 5px;
+}
+.content-1{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.content-1 h2{
+    color: #95A000;
+    font-size: 2.5vw;
+    padding: 1vw 2vw 0 6vw;
+}
+.content-1 h3{
+    color: #fff;
+    font-size: 20px;
+    padding: 1vw 2vw 0 6vw;
+}
+.content-1 p{
+    color: #fff;
+    font-size: 15px;
+    padding: 1vw 2vw 0 6vw;
+    line-height: 1.5;
+}
+#paragraph{
+    width: 50%;
+    padding: 1vw 2vw 0 15vw;
+    
+}
+#paragraph p{
+     color: #fff;
+     font-size: 14px;
+     font-family: 100;
+     line-height: 1.5;
+}
+.content-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #BFC500;
+    padding: 1vw;
+    margin: 2vw 6vw 0 6vw;
+}
+.content-2 h1{
+    color: black;
+    font-size: 30px;
+ 
+}
+.content-2 p{
+    color: black;
+     font-size: 18px;
+     font-family: 100;
+     line-height: 1;
+}
+.content-2 button{
+    padding: 1vw 2vw;
+    border-radius: 8px;
+    font-size: 18px;
+    background-color: black;
+    color: #BFC500;
+    text-align: center;
+    border: none;
+    
+}
+.content-2 button:hover{
+    background-color: #fff;
+    color: black;
+}
+.content-3{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 2vw 6vw 0 6vw;
+    border-top: #fff solid 1px; 
+    border-bottom: #fff solid 1px;
+}
+.content-3 h2{
+    color: #fff;
+    padding: 10px;
+    font-size: 2.5vw;
+}
+.content-3 p{
+    color: #fff;
+    padding: 15px;
+    font-size: 1.5vw;
+    font-family: 100;
+    line-height: 1.5;
+}
+.content-3 .span-tag{
+    color: #BFC500;
+    text-decoration: underline;
+}
+.content-3 img{
+    width: 320px;
+    height: 400px;
+
+}
+.content-4{
+    padding: 1vw;
+    margin: 2vw 6vw 0 6vw;
+    padding-bottom: 6vw;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.content-4 h1{
+    color: #fff;
+    padding: 10px;
+    font-size: 2.5vw;
+}
+.content-4 p{
+    color: #fff;
+    padding-top: 5vw;
+    font-size: 1.5vw;
+    font-family: 100;
+    line-height: 1.5;
+    padding-bottom: 1vw;
+}
+.content-4 img{
+    margin-top: 5vw;
+    width: 150px;
+    height: 150px;
+}
+.content-4 h4{
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 100;
+}
+.content-5{
+    padding: 1vw;
+    margin: 1vw 6vw 0 6vw;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.main-content{
+    width: 65%;
+}
+.content-5 .main-content h3{
+    color: #fff;
+    padding-top: 1vw;
+    font-size: 2.5vw;
+}
+.content-5 .main-content p{
+    color: #fff;
+    padding-top: 3vw;
+    font-size: 1.5vw;
+    font-family: 100;
+    line-height: 1.2;
+
+}
+.content-5 img{
+    width: 163px;
+    height: 338px;
+}
+.last-content{
+    padding: 1vw;
+    margin: 1vw 6vw 0 6vw;
+    /* border-bottom: 1px solid #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.last-main-content{
+    width: 100%;
+    /* height: 100vh; */
+
+}
+.last-main-content h1{
+    color: #fff;
+    font-size: 32px;
+    padding-top: 10px;
+    
+
+}
+.last-main-content p{
+    color: white;
+    font-size: 16px;
+    padding-top: 20px;
+}
+.last-content img{
+    width: 333px;
+    height: 300px;
+    background-color: #95A000;
+}
+.main-para {
+    font-family: Arial, sans-serif; /* Example font family */
+    line-height: 1; /* Adjust line height as needed */
+}
+
+.main-para .para-1 {
+    /* margin-bottom: 20px; Example margin between each section */
+}
+
+.main-para .para-1 h1 {
+    color: #95A000;
+    margin-top: 10px;
+    display: inline-block; /* Ensure h1 and p are on the same line */
+    margin-right: 20px; /* Adjust spacing between h1 and p */
+    vertical-align: text-bottom; 
+    font-size: 23spx; /* Example font size for h1 */
+}
+
+.main-para .para-1 p {
+    display: inline-block; /* Ensure h1 and p are on the same line */
+    margin: 0; /* Remove default margins */
+    vertical-align: top; /* Align p with the top of h1 */
+    font-size: 15px; /* Example font size for p */
+    text-decoration: line-through;
+    line-height: 1.4;
+    max-width: 80%; 
+}
